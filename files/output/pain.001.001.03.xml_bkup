@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Document
+	xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>5003</MsgId>
+			<CreDtTm>2018-10-09T17:23:44</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>10.00</CtrlSum>
+			<InitgPty>
+				<Nm>CloudIO Inc</Nm>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>C3791302</Id>
+						</Othr>
+					</OrgId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>5003_6003</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>10.00</CtrlSum>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>URGP</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>SDCL</Cd>
+				</LclInstrm>
+			</PmtTpInf>
+			<ReqdExctnDt>2018-10-09</ReqdExctnDt>
+			<Dbtr>
+				<Nm>CloudIO Inc</Nm>
+				<PstlAdr>
+					<StrtNm>440 NORTH WOLFE ROAD,</StrtNm>
+					<PstCd>94085</PstCd>
+					<TwnNm>SUNNYVALE</TwnNm>
+					<CtrySubDvsn>CA</CtrySubDvsn>
+					<Ctry>US</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>C3791302</Id>
+						</Othr>
+					</OrgId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>10012262</Id>
+					</Othr>
+				</Id>
+				<Ccy>USD</Ccy>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CITIGB2L</BIC>
+					<PstlAdr>
+						<Ctry>GB</Ctry>
+					</PstlAdr>
+				</FinInstnId>
+				<BrnchId>
+					<Id>185008</Id>
+				</BrnchId>
+			</DbtrAgt>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>45</InstrId>
+					<EndToEndId>45</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="USD">10.00</InstdAmt>
+				</Amt>
+				<CdtrAgt>
+					<FinInstnId>
+						<BIC>CITIGB2L</BIC>
+						<Nm>Citi Bank UK</Nm>
+						<PstlAdr>
+							<Ctry>GB</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+					<BrnchId>
+						<Id>185008</Id>
+					</BrnchId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>Vision Supplier</Nm>
+					<PstlAdr>
+						<StrtNm>101 california st</StrtNm>
+						<PstCd>94111</PstCd>
+						<TwnNm>san francisco</TwnNm>
+						<CtrySubDvsn>CA</CtrySubDvsn>
+						<Ctry>US</Ctry>
+					</PstlAdr>
+					<Id>
+						<OrgId>
+							<Othr>
+								<Id>1234</Id>
+							</Othr>
+						</OrgId>
+					</Id>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<IBAN>GB27CITI18500810012262</IBAN>
+					</Id>
+				</CdtrAcct>
+				<Tax>
+					<Cdtr>
+						<TaxId>1234</TaxId>
+					</Cdtr>
+				</Tax>
+				<RmtInf>
+					<Strd>
+						<RfrdDocInf>
+							<Tp>
+								<CdOrPrtry>
+									<Cd>CINV</Cd>
+								</CdOrPrtry>
+								<Issr>Vision Supplier</Issr>
+							</Tp>
+							<Nb>CITI9903</Nb>
+							<RltdDt>2018-10-09</RltdDt>
+						</RfrdDocInf>
+						<RfrdDocAmt>
+							<DuePyblAmt Ccy="USD">10.00</DuePyblAmt>
+						</RfrdDocAmt>
+					</Strd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
